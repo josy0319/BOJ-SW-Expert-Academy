@@ -1,4 +1,4 @@
-1983. 조교의 성적 매기기 D2
+//1983. 조교의 성적 매기기 D2
 
 #include <stdio.h>
 #include <stdlib.h>
