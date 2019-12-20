@@ -1,3 +1,5 @@
+#programmers - 탑
+
 def solution(heights):
     answer = []
     #4 7 5 9 6
