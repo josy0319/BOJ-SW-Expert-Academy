@@ -25,7 +25,7 @@ def solution(clothes):
     return answer
 
 
-#######################################################
+########################################################
 
 
 from collections import Counter
