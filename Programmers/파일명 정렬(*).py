@@ -11,7 +11,8 @@ def solution(files):
         m = p.match(i)
         temp.append([m.group(1), m.group(2), m.group(3)])
         #정규식에서 ()사용시 group으로 나눠 사용 가능
-    print(temp)
+    
+    #int해주는 이유 -> 10 < 0011 < 012 < 13 < 014이기 때문에 int
     temp = sorted(temp, key = lambda x:int(x[1]))
     temp = sorted(temp, key = lambda x:x[0].lower())
     #x[0]을 우선 정렬해야 하기 때문에 나중에 정렬한다.
