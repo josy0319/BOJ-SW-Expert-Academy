@@ -16,7 +16,6 @@ def solution(arrangement):
     return answer
 
 
-
 if __name__=="__main__":
     n = list(input())
     res = 0
