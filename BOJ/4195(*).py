@@ -11,6 +11,7 @@ def find(x):
     #만약 x의 루트가 본인이 아니라면
     if name[x] != x:
         #루트를 재귀적으로 찾음
+        #찾으면서 중간다리를 루트노드로 치환
         name[x] = find(name[x])
     #루트를 반환
     return name[x]
