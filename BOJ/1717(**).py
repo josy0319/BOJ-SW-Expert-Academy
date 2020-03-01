@@ -10,6 +10,7 @@ def find(x):
     #만약 x의 값이 루트의 값이 아니라면
     if parent[x] != x:
         #루트 값을 재귀적으로 찾음
+        #찾으면서 중간 다리를 해주는 노드들의 값도 루트 값으로 변경해줌 
         parent[x] = find(parent[x])
     #루트 값이었다면 그냥 반환, 아니였다면 루트 값을 찾은 후 반환
     return parent[x] 
