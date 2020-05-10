@@ -1,6 +1,8 @@
 #Programmers - 크레인_인형뽑기_게임
 
-
+'''
+단순 구현
+'''
 
 
 def solution(board, moves):
