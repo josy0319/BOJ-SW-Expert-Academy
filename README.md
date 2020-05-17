@@ -10,6 +10,6 @@
 - [분할정복](https://github.com/josy0319/algorithm_for_problem_solving/tree/master/DivideConquer)
 - [이진탐색](https://github.com/josy0319/algorithm_for_problem_solving/tree/master/BinarySearch)
 - [이진 트리](https://github.com/josy0319/algorithm_for_problem_solving/tree/master/BinaryTree)
-- [세그먼트 트리](https://github.com/josy0319/algorithm_for_problem_solving/tree/master/SegmentTree  
+- [세그먼트 트리](https://github.com/josy0319/algorithm_for_problem_solving/tree/master/SegmentTree)  
   
 출처:Baekjoon online judge, Programmers, Sw expert academy, Groom
