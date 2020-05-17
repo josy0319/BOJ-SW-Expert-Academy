@@ -1,4 +1,6 @@
-# 문제해결을 위한 알고리즘
+# 문제해결을 위한 알고리즘  
+  
+  출처:Baekjoon online judge, Programmers, Sw expert academy, Groom 
 
 - [단순 구현](https://github.com/josy0319/algorithm_for_problem_solving/tree/master/SimpleImplementation)
 - [스택 & 큐](https://github.com/josy0319/algorithm_for_problem_solving/tree/master/QStack)
