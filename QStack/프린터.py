@@ -1,4 +1,31 @@
 #programmers - 프린터
+
+'''
+stack
+'''
+
+from collections import deque
+def solution(p, l):
+    res=0
+    temp=deque([0] * len(p))
+    temp[l]=1
+    while True:
+        if len(p)==0 or len(p)==1:
+            res+=1
+            break
+        if p[0]>=max(p[1:]):
+            p.pop(0)
+            count=temp.popleft()
+            res+=1
+            if count==1:
+                break
+        else:
+            p.append(p.pop(0))
+            count=temp.popleft()
+            temp.append(count)
+    return res
+
+#이전 코드
 def solution(priorities, location):
     answer = 0
     temp = [0] * len(priorities)
